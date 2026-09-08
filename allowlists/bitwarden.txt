@@ -1,0 +1,41 @@
+! Bitwarden
+
+@@||bitwarden.com^
+@@||bitwarden.eu^
+
+@@||identity.bitwarden.com^
+@@||identity.bitwarden.eu^
+
+@@||api.bitwarden.com^
+@@||api.bitwarden.eu^
+
+@@||vault.bitwarden.com^
+@@||vault.bitwarden.eu^
+
+@@||send.bitwarden.com^
+
+@@||events.bitwarden.com^
+
+@@||icons.bitwarden.net^
+
+! Vaultwarden
+
+@@||vaultwarden.net^
+
+! Duo Security
+
+@@||duosecurity.com^
+
+@@||api.duosecurity.com^
+
+! Payments
+
+@@||stripe.com^
+
+@@||js.stripe.com^
+
+@@||braintreegateway.com^
+
+@@||paypal.com^
+
+@@||paypalobjects.com^
