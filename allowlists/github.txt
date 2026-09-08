@@ -1,12 +1,34 @@
+! ========================================
+! GitHub
+! ========================================
+! Purpose:
+! Allows GitHub repositories,
+! releases, downloads and raw content.
+!
+! Used By:
+! - GitHub
+! - GitHub Actions
+! - GitHub Releases
+! - AdGuard Filter Hosting
+! - Scripts and Automation
+! ========================================
+
 ! GitHub
 
 @@||github.com^
 @@||api.github.com^
 
+! Repository Downloads
+
 @@||codeload.github.com^
+
+! Content Delivery
 
 @@||githubusercontent.com^
 @@||raw.githubusercontent.com^
 @@||objects.githubusercontent.com^
 
+! GitHub Assets
+
 @@||githubassets.com^
+``
