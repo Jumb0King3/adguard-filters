@@ -1,3 +1,19 @@
+! ========================================
+! Infrastructure
+! ========================================
+! Purpose:
+! Common CDN, Cloudflare and
+! time synchronisation services used
+! throughout the homelab.
+!
+! Used By:
+! - Multiple websites
+! - Reverse proxies
+! - Cloudflare services
+! - Browser assets
+! - Time synchronisation
+! ========================================
+
 ! Cloudflare
 
 @@||cloudflare.com^
