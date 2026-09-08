@@ -1,0 +1,13 @@
+! Unraid
+
+@@||unraid.net^
+
+@@||connect.myunraid.net^
+
+@@||events.myunraid.net^
+
+@@||api.myunraid.net^
+
+@@||forums.unraid.net^
+
+@@||plugins.unraid.net^
