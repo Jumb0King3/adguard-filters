@@ -12,38 +12,19 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/<fi
 
 ## Repository Structure
 
-### 📧 m365.txt
-Microsoft 365 services, authentication, Outlook, SharePoint, OneDrive, PowerShell Gallery and NuGet.
-
-### 🐙 github.txt
-GitHub repositories, releases, downloads, GitHub Actions and raw content hosting.
-
-### 🌐 unifi.txt
-UniFi cloud services, account authentication and device management.
-
-### 🎬 media-stack.txt
-Jellyfin, Sonarr, Radarr, Seerr/Overseerr, SABnzbd and metadata providers such as TMDb and TheTVDB.
-
-### 🐳 docker.txt
-Docker Hub, LinuxServer.io, GitHub Container Registry and container update services.
-
-### 💾 unraid.txt
-Unraid OS, Unraid Connect, plugins, community applications and support services.
-
-### 💼 work.txt
-Employment Hero, Dayforce, Dayforce Learning, Eloomi and other work-related services.
-
-### 🛒 shopping.txt
-Shopping and marketplace services including Bunnings and Gumtree.
-
-### 🎮 gaming.txt
-Gaming services, community resources, game-related APIs and supporting platforms.
-
-### 🍎 apple.txt
-Apple services, iCloud, Apple ID, App Store and Apple Private Relay.
-
-### 🧪 testing.txt
-Temporary staging area for newly discovered domains before they are moved into a permanent allowlist.
+| File | Description |
+|--------|-------------|
+| 📧 `m365.txt` | Microsoft 365, Outlook, SharePoint, OneDrive, PowerShell Gallery and NuGet |
+| 🐙 `github.txt` | GitHub services, releases, downloads and raw content |
+| 🌐 `unifi.txt` | UniFi cloud services and account management |
+| 🎬 `media-stack.txt` | Jellyfin, Sonarr, Radarr, Seerr, SABnzbd and metadata providers |
+| 🐳 `docker.txt` | Docker Hub, LinuxServer.io and GitHub Container Registry |
+| 💾 `unraid.txt` | Unraid services, plugins and community applications |
+| 💼 `work.txt` | Employment Hero, Dayforce and Eloomi |
+| 🛒 `shopping.txt` | Bunnings, Gumtree and related shopping services |
+| 🎮 `gaming.txt` | Gaming services, APIs and community resources |
+| 🍎 `apple.txt` | Apple services, iCloud and Private Relay |
+| 🧪 `testing.txt` | Temporary staging area for testing new domains |
 
 
 # AdGuard Home Custom Allowlists
