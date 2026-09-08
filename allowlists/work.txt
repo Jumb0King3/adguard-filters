@@ -1,4 +1,22 @@
+! ========================================
+! Work Services
+! ========================================
+! Purpose:
+! Allows access to work-related
+! platforms, authentication services,
+! learning portals and training content.
+!
+! Used By:
+! - Employment Hero
+! - Dayforce
+! - Dayforce Learning
+! - Eloomi
+! - Corporate Training Platforms
+! ========================================
+
+! ========================================
 ! Employment Hero
+! ========================================
 
 @@||employmenthero.com^
 @@||employmenthero.com.au^
@@ -7,14 +25,15 @@
 @@||developer.employmenthero.com^
 
 @@||help.employmenthero.com^
-
 @@||help.employmenthero.info^
 
 @@||cdn.prod.website-files.com^
 
 @@||ehrocks.com^
 
+! ========================================
 ! Dayforce
+! ========================================
 
 @@||dayforcehcm.com^
 @@||www.dayforcehcm.com^
@@ -24,10 +43,19 @@
 @@||dayforce.com^
 
 @@||ceridian.com^
-
 @@||ceridianhcm.com^
 
+! Authentication
+
+@@||login.microsoftonline.com^
+@@||microsoftonline.com^
+
+@@||msauth.net^
+@@||msftauth.net^
+
+! ========================================
 ! Dayforce Learning
+! ========================================
 
 @@||learning.dayforce.com^
 
@@ -37,7 +65,27 @@
 
 @@||ceridianlearning.com^
 
+! ========================================
+! Training Content
+! ========================================
+
+@@||vimeo.com^
+@@||player.vimeo.com^
+@@||vimeocdn.com^
+
+@@||youtube.com^
+@@||youtu.be^
+
+@@||youtube-nocookie.com^
+
+@@||ytimg.com^
+
+@@||brightcove.com^
+@@||brightcovecdn.com^
+
+! ========================================
 ! Eloomi
+! ========================================
 
 @@||eloomi.io^
 
@@ -48,3 +96,11 @@
 @@||api.eloomi.io^
 
 @@||static.eloomi.io^
+
+! ========================================
+! Application Support Services
+! ========================================
+
+@@||app-analytics-services.com^
+
+@@||data.pendo.io^
