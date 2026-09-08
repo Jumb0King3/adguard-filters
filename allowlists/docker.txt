@@ -1,3 +1,18 @@
+! ========================================
+! Docker
+! ========================================
+! Purpose:
+! Allows container image pulls,
+! registry access and update checks.
+!
+! Used By:
+! - Docker Hub
+! - LinuxServer.io
+! - GitHub Container Registry
+! - Unraid Container Updates
+! - Community Applications
+! ========================================
+
 ! Docker Hub
 
 @@||docker.io^
@@ -8,15 +23,15 @@
 
 @@||hub.docker.com^
 
+! Docker CDN
+
 @@||production.cloudflare.docker.com^
 
 ! LinuxServer.io
 
 @@||linuxserver.io^
-
 @@||lscr.io^
 
 ! GitHub Container Registry
 
 @@||ghcr.io^
-``
