@@ -1,0 +1,50 @@
+! Employment Hero
+
+@@||employmenthero.com^
+@@||employmenthero.com.au^
+@@||employmenthero.co^
+
+@@||developer.employmenthero.com^
+
+@@||help.employmenthero.com^
+
+@@||help.employmenthero.info^
+
+@@||cdn.prod.website-files.com^
+
+@@||ehrocks.com^
+
+! Dayforce
+
+@@||dayforcehcm.com^
+@@||www.dayforcehcm.com^
+
+@@||mydayforce.com^
+
+@@||dayforce.com^
+
+@@||ceridian.com^
+
+@@||ceridianhcm.com^
+
+! Dayforce Learning
+
+@@||learning.dayforce.com^
+
+@@||dayforcelearning.com^
+
+@@||education.dayforce.com^
+
+@@||ceridianlearning.com^
+
+! Eloomi
+
+@@||eloomi.io^
+
+@@||vivaenergyau-prod.eloomi.io^
+
+@@||cdn.eloomi.io^
+
+@@||api.eloomi.io^
+
+@@||static.eloomi.io^
