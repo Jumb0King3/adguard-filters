@@ -1,0 +1,8 @@
+! UniFi
+
+@@||ui.com^
+@@||unifi.com^
+@@||ubnt.com^
+
+@@||account.ui.com^
+@@||sso.ui.com^
