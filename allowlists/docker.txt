@@ -1,0 +1,22 @@
+! Docker Hub
+
+@@||docker.io^
+@@||registry-1.docker.io^
+@@||registry.hub.docker.com^
+@@||index.docker.io^
+@@||auth.docker.io^
+
+@@||hub.docker.com^
+
+@@||production.cloudflare.docker.com^
+
+! LinuxServer.io
+
+@@||linuxserver.io^
+
+@@||lscr.io^
+
+! GitHub Container Registry
+
+@@||ghcr.io^
+``
