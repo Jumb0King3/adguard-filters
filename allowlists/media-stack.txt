@@ -1,7 +1,27 @@
+! ========================================
+! Media Stack
+! ========================================
+! Purpose:
+! Supports Jellyfin metadata,
+! Sonarr, Radarr, Seerr and SABnzbd.
+!
+! Used By:
+! - Jellyfin
+! - Sonarr
+! - Radarr
+! - Seerr
+! - SABnzbd
+! - TheMovieDB
+! - TheTVDB
+! - Fanart.tv
+! ========================================
+
 ! Jellyfin
 
 @@||jellyfin.org^
 @@||repo.jellyfin.org^
+
+! The Movie Database (TMDb)
 
 @@||api.themoviedb.org^
 @@||image.tmdb.org^
@@ -10,8 +30,12 @@
 @@||themoviedb.org^
 @@||tmdb.org^
 
+! Fanart.tv
+
 @@||fanart.tv^
 @@||assets.fanart.tv^
+
+! TheTVDB
 
 @@||thetvdb.com^
 @@||api.thetvdb.com^
