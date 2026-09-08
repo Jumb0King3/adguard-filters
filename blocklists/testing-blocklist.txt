@@ -1,0 +1,30 @@
+! ========================================
+! Testing Blocklist
+! ========================================
+! Purpose:
+! Temporary holding area for domains
+! under evaluation before being added
+! to a permanent blocklist.
+!
+! Workflow:
+! 1. Add domain here.
+! 2. Verify blocking behaviour.
+! 3. Confirm no unintended impact.
+! 4. Move to a permanent blocklist
+!    if required.
+! 5. Remove from this file.
+!
+! This file should remain as small
+! as possible.
+! ========================================
+
+! ========================================
+! Test Entries
+! ========================================
+!
+! Examples:
+!
+! ||example.com^
+! ||examplecdn.com^
+!
+! Remove examples before
