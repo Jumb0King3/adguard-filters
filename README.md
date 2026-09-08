@@ -8,4 +8,4 @@ allowlists/
 
 Raw URL format:
 
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/<filename>.txt
+https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/<filename><filename>.txt
