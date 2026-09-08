@@ -1,67 +1,46 @@
 ! ========================================
-! Palworld
+! Shopping
+! ========================================
+! Purpose:
+! Allows access to shopping and
+! marketplace websites that may rely
+! on content delivery networks and
+! third-party asset providers.
+!
+! Used By:
+! - Bunnings
+! - Gumtree
 ! ========================================
 
-@@||palworld.gg^
-@@||b.palworldgame.com^$important
-
-@@||palbreed.com^$important
-@@||www.palbreed.com^$important
-
 ! ========================================
-! Fandom / Wikia
+! Gumtree
 ! ========================================
 
-@@||fandom.com^
-@@||*.fandom.com^
-
-@@||wikia.com^
-@@||*.wikia.com^
-
-@@||nocookie.net^
-@@||*.nocookie.net^
-
-@@||beacon.wikia-services.com^
-@@||*.wikia-services.com^
-
-@@||fandomdigitaldistribution.com^
-@@||*.fandomdigitaldistribution.com^
-
-@@||static.wikia.nocookie.net^
-@@||vignette.wikia.nocookie.net^
+@@||gumtree.com.au^
 
 ! ========================================
-! Runaway Play
+! Bunnings
 ! ========================================
 
-@@||runawayplay.com^
+@@||bunnings.com.au^
+@@||www.bunnings.com.au^
 
-! ========================================
-! Firebase
-! ========================================
+! APIs & Site Content
 
-@@||firebaseio.com^
-@@||googleapis.com^
-@@||gstatic.com^
-@@||googleusercontent.com^
+@@||api.bunnings.com.au^
+@@||media.bunnings.com.au^
+@@||images.bunnings.com.au^
 
-@@||app-measurement.com^
-@@||firebaselogging.googleapis.com^
+@@||assets.bunnings.com.au^
+@@||cdn.bunnings.com.au^
+@@||static.bunnings.com.au^
 
-! ========================================
-! Unity
-! ========================================
+! Image & Asset Providers
 
-@@||unity3d.com^
+@@||optimizely.com^
+@@||optimizelycdn.com^
 
-! ========================================
-! CDN Services
-! ========================================
+@@||scene7.com^
 
-@@||amazonaws.com^
-
-! ========================================
-! Mobile Game Dependencies
-! ========================================
-
-@@||applovin.com^
+@@||adobesc.com^
+@@||adobedtm.com^
