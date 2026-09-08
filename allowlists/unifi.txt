@@ -1,8 +1,25 @@
+! ========================================
+! UniFi
+! ========================================
+! Purpose:
+! Allows UniFi cloud services,
+! account authentication and
+! device management features.
+!
+! Used By:
+! - UDM Pro
+! - UniFi Network
+! - UniFi Cloud Access
+! - UniFi Account Services
+! ========================================
+
 ! UniFi
 
 @@||ui.com^
 @@||unifi.com^
 @@||ubnt.com^
+
+! Account Services
 
 @@||account.ui.com^
 @@||sso.ui.com^
