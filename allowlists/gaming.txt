@@ -1,0 +1,67 @@
+! ========================================
+! Palworld
+! ========================================
+
+@@||palworld.gg^
+@@||b.palworldgame.com^$important
+
+@@||palbreed.com^$important
+@@||www.palbreed.com^$important
+
+! ========================================
+! Fandom / Wikia
+! ========================================
+
+@@||fandom.com^
+@@||*.fandom.com^
+
+@@||wikia.com^
+@@||*.wikia.com^
+
+@@||nocookie.net^
+@@||*.nocookie.net^
+
+@@||beacon.wikia-services.com^
+@@||*.wikia-services.com^
+
+@@||fandomdigitaldistribution.com^
+@@||*.fandomdigitaldistribution.com^
+
+@@||static.wikia.nocookie.net^
+@@||vignette.wikia.nocookie.net^
+
+! ========================================
+! Runaway Play
+! ========================================
+
+@@||runawayplay.com^
+
+! ========================================
+! Firebase
+! ========================================
+
+@@||firebaseio.com^
+@@||googleapis.com^
+@@||gstatic.com^
+@@||googleusercontent.com^
+
+@@||app-measurement.com^
+@@||firebaselogging.googleapis.com^
+
+! ========================================
+! Unity
+! ========================================
+
+@@||unity3d.com^
+
+! ========================================
+! CDN Services
+! ========================================
+
+@@||amazonaws.com^
+
+! ========================================
+! Mobile Game Dependencies
+! ========================================
+
+@@||applovin.com^
