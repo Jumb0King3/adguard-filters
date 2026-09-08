@@ -1,4 +1,22 @@
+! ========================================
 ! Microsoft 365
+! ========================================
+! Purpose:
+! Allows Microsoft 365 services,
+! authentication, Outlook, SharePoint,
+! OneDrive, PowerShell Gallery and NuGet.
+!
+! Used By:
+! - Microsoft 365
+! - Outlook
+! - SharePoint Online
+! - OneDrive
+! - Exchange Online
+! - Microsoft Authentication
+! - PowerShell Gallery
+! ========================================
+
+! Microsoft 365 Core
 
 @@||microsoft.com^
 @@||microsoftonline.com^
@@ -21,6 +39,8 @@
 
 @@||live.com^
 
+! Authentication
+
 @@||msauth.net^
 @@||msftauth.net^
 
@@ -28,16 +48,24 @@
 @@||aadcdn.msauth.net^
 @@||aadcdn.microsoftonline-p.com^
 
+! Microsoft Graph
+
 @@||graph.microsoft.com^
 @@||graph.windows.net^
 
 @@||device.login.microsoftonline.com^
 
+! Microsoft Applications
+
 @@||go.microsoft.com^
+
+! PowerShell Gallery
 
 @@||powershellgallery.com^
 @@||www.powershellgallery.com^
 @@||cdn.powershellgallery.com^
+
+! NuGet
 
 @@||nuget.org^
 @@||www.nuget.org^
