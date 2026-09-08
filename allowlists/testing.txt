@@ -1,0 +1,3 @@
+! Temporary testing allowlist
+! Move confirmed entries into category lists
+
