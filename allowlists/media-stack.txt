@@ -1,0 +1,36 @@
+! Jellyfin
+
+@@||jellyfin.org^
+@@||repo.jellyfin.org^
+
+@@||api.themoviedb.org^
+@@||image.tmdb.org^
+@@||images.tmdb.org^
+
+@@||themoviedb.org^
+@@||tmdb.org^
+
+@@||fanart.tv^
+@@||assets.fanart.tv^
+
+@@||thetvdb.com^
+@@||api.thetvdb.com^
+
+! Sonarr
+
+@@||sonarr.tv^
+@@||skyhook.sonarr.tv^
+@@||services.sonarr.tv^
+
+! Radarr
+
+@@||radarr.video^
+@@||movies.radarr.video^
+
+! Seerr / Overseerr
+
+@@||overseerr.dev^
+
+! SABnzbd
+
+@@||sabnzbd.org^
