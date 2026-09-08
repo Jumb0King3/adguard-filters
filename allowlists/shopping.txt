@@ -1,0 +1,32 @@
+! ========================================
+! Gumtree
+! ========================================
+
+@@||gumtree.com.au^
+
+! ========================================
+! Bunnings
+! ========================================
+
+@@||bunnings.com.au^
+@@||www.bunnings.com.au^
+
+@@||api.bunnings.com.au^
+@@||media.bunnings.com.au^
+@@||images.bunnings.com.au^
+
+@@||assets.bunnings.com.au^
+@@||cdn.bunnings.com.au^
+@@||static.bunnings.com.au^
+
+! ========================================
+! Image / Asset Providers
+! ========================================
+
+@@||optimizely.com^
+@@||optimizelycdn.com^
+
+@@||scene7.com^
+
+@@||adobesc.com^
+@@||adobedtm.com^
