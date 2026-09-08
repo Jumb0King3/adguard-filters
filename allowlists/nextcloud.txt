@@ -1,2 +1,11 @@
-allowlists/nextcloud.txt
-``
+! Nextcloud
+
+@@||nextcloud.com^
+
+@@||nextcloud.org^
+
+@@||download.nextcloud.com^
+
+@@||apps.nextcloud.com^
+
+@@||updates.nextcloud.com^
