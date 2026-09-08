@@ -1,3 +1,12 @@
-! Temporary testing allowlist
-! Move confirmed entries into category lists
-
+! ========================================
+! Testing Allowlist
+! ========================================
+!
+! New entries go here first.
+! Once validated, move them into
+! the appropriate category file.
+!
+! Example:
+!
+! @@||example.com^
+!
