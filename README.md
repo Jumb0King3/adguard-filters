@@ -11,7 +11,7 @@ These lists are used with AdGuard Home and are automatically updated via GitHub 
 | File | Description |
 |--------|-------------|
 | 🌐 `core-services.txt` | Microsoft 365, GitHub, UniFi, Cloudflare, CDNs and infrastructure services |
-| 🏠 `homelab.txt` | Unraid, Docker, Jellyfin, Sonarr, Radarr, Seerr, SABnzbd, Nextcloud and Bitwarden |
+| 🏠 `homelab.txt` | Unraid, Docker, Jellyfin, Sonarr, Radarr, Seerr, SABnzbd, Usenet, Nextcloud, Bitwarden, AdGuard Home, NPM, Duplicati and Uptime Kuma |
 | 👤 `personal.txt` | Apple, Banking, Government, PayPal, Shopping, Gaming and Popular Websites |
 | 💼 `work.txt` | Employment Hero, Dayforce, Dayforce Learning and Eloomi |
 | 🧪 `testing.txt` | Temporary staging area for testing new allowlist entries |
@@ -23,33 +23,23 @@ These lists are used with AdGuard Home and are automatically updated via GitHub 
 
 ### Core Services
 
-```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/core-services.txt
-```
 
 ### Homelab
 
-```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/homelab.txt
-```
 
-### Personal Services
+### Personal
 
-```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/personal.txt
-```
 
-### Work Services
+### Work
 
-```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/work.txt
-```
 
 ### Testing
 
-```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/testing.txt
-```
 
 ---
 
@@ -57,86 +47,7 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/tes
 
 ### Testing Blocklist
 
-```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/testing-blocklist.txt
-```
-
----
-
-## What's Included
-
-### 🌐 Core Services
-
-- Microsoft 365
-- Outlook
-- SharePoint
-- OneDrive
-- GitHub
-- UniFi
-- Cloudflare
-- Common CDNs
-- Time Synchronisation
-
-### 🏠 Homelab
-
-- Unraid
-- Docker
-- LinuxServer.io
-- Jellyfin
-- Sonarr
-- Radarr
-- Seerr
-- SABnzbd
-- Nextcloud
-- Self-hosted Bitwarden
-
-### 👤 Personal Services
-
-- Apple & iCloud
-- Apple Private Relay
-- Commonwealth Bank
-- myGov
-- ATO
-- Services Australia
-- Centrelink
-- PayPal
-- Google
-- YouTube
-- Reddit
-- Amazon
-- eBay
-- Seek
-- Indeed
-- Gumtree
-- Bunnings
-- Palworld
-- Creality
-- Fandom
-
-### 💼 Work Services
-
-- Employment Hero
-- Dayforce
-- Dayforce Learning
-- Eloomi
-
----
-
-## Recommended Workflow
-
-### New Allow Rule
-
-1. Add the domain to `testing.txt`
-2. Verify the issue is resolved
-3. Move the rule to the appropriate category file
-4. Commit the change to GitHub
-
-### New Block Rule
-
-1. Add the domain to `testing-blocklist.txt`
-2. Verify the domain is blocked as expected
-3. Move the rule to a permanent blocklist if required
-4. Commit the change to GitHub
 
 ---
 
