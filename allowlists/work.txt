@@ -58,12 +58,8 @@
 @@||ceridianlearning.com^
 
 ! ========================================
-! Microsoft Supporting Services
+! Microsoft Stream
 ! ========================================
-
-@@||officeclient.microsoft.com^
-
-@@||officeapps.live.com^
 
 @@||microsoftstream.com^
 
