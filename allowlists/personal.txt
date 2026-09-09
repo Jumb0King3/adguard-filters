@@ -1,1 +1,177 @@
+! ========================================
+! Personal Services
+! ========================================
+! Purpose:
+! Personal and family services including
+! Apple services, gaming platforms,
+! hobby services, shopping sites and
+! marketplace applications.
+!
+! Used By:
+! - Apple Devices
+! - iCloud
+! - App Store
+! - Apple Private Relay
+! - Palworld
+! - Fandom
+! - Creality
+! - Bunnings
+! - Gumtree
+! ========================================
 
+! ========================================
+! Apple Private Relay
+! ========================================
+
+@@||mask.icloud.com^
+@@||mask-h2.icloud.com^
+@@||mask-api.icloud.com^
+
+@@||gateway.icloud.com^
+
+@@||mask.apple-dns.net^
+@@||mask-t.apple-dns.net^
+
+! ========================================
+! Apple Core Services
+! ========================================
+
+@@||apple.com^
+
+@@||icloud.com^
+
+@@||apple-dns.net^
+
+@@||push.apple.com^
+
+@@||ls.apple.com^
+@@||ls2-apple.com^
+
+@@||aaplimg.com^
+
+@@||setup.icloud.com^
+
+@@||appleid.apple.com^
+
+@@||apps.apple.com^
+
+@@||itunes.apple.com^
+
+@@||mzstatic.com^
+
+@@||api.smoot.apple.com^$important
+
+! ========================================
+! Gumtree
+! ========================================
+
+@@||gumtree.com.au^
+
+! ========================================
+! Bunnings
+! ========================================
+
+@@||bunnings.com.au^
+@@||www.bunnings.com.au^
+
+@@||api.bunnings.com.au^
+@@||media.bunnings.com.au^
+@@||images.bunnings.com.au^
+
+@@||assets.bunnings.com.au^
+@@||cdn.bunnings.com.au^
+@@||static.bunnings.com.au^
+
+@@||optimizely.com^
+@@||optimizelycdn.com^
+
+@@||scene7.com^
+
+@@||adobesc.com^
+@@||adobedtm.com^
+
+! ========================================
+! Palworld
+! ========================================
+
+@@||palworld.gg^
+
+@@||b.palworldgame.com^$important
+
+@@||palbreed.com^$important
+@@||www.palbreed.com^$important
+
+! ========================================
+! Runaway Play
+! ========================================
+
+@@||runawayplay.com^
+
+! ========================================
+! Firebase Services
+! ========================================
+
+@@||firebaseio.com^
+
+@@||googleapis.com^
+
+@@||gstatic.com^
+
+@@||googleusercontent.com^
+
+@@||app-measurement.com^
+
+@@||firebaselogging.googleapis.com^
+
+! ========================================
+! Unity
+! ========================================
+
+@@||unity3d.com^
+
+! ========================================
+! Mobile Game Dependencies
+! ========================================
+
+@@||applovin.com^
+
+! ========================================
+! CDN Services
+! ========================================
+
+@@||amazonaws.com^
+
+! ========================================
+! Creality
+! ========================================
+
+@@||creality.com^
+
+@@||crealitycloud.com^
+
+@@||file-cdn.creality.com^
+
+@@||file2-cdn.creality.com^
+
+! ========================================
+! Fandom / Wikia
+! ========================================
+
+@@||fandom.com^
+@@||*.fandom.com^
+
+@@||wikia.com^
+@@||*.wikia.com^
+
+@@||nocookie.net^
+@@||*.nocookie.net^
+
+@@||beacon.wikia-services.com^
+@@||*.wikia-services.com^
+
+@@||fandomdigitaldistribution.com^
+@@||*.fandomdigitaldistribution.com^
+
+@@||static.wikia.nocookie.net^
+
+@@||vignette.wikia.nocookie.net^
