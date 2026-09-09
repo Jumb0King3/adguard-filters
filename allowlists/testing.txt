@@ -1,12 +1,17 @@
 ! ========================================
-! Testing Allowlist
+! Testing
 ! ========================================
+! Purpose:
+! Temporary staging area for domains
+! under evaluation.
 !
-! New entries go here first.
-! Once validated, move them into
-! the appropriate category file.
+! Workflow:
+! 1. Add new domain here.
+! 2. Test functionality.
+! 3. Move confirmed entries into the
+!    appropriate category file.
+! 4. Remove from testing.txt.
 !
-! Example:
-!
-! @@||example.com^
-!
+! This file should remain as small
+! as possible.
+! ========================================
