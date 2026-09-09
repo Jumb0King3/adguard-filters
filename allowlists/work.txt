@@ -45,14 +45,6 @@
 @@||ceridian.com^
 @@||ceridianhcm.com^
 
-! Authentication
-
-@@||login.microsoftonline.com^
-@@||microsoftonline.com^
-
-@@||msauth.net^
-@@||msftauth.net^
-
 ! ========================================
 ! Dayforce Learning
 ! ========================================
@@ -66,14 +58,29 @@
 @@||ceridianlearning.com^
 
 ! ========================================
+! Microsoft Supporting Services
+! ========================================
+
+@@||officeclient.microsoft.com^
+
+@@||officeapps.live.com^
+
+@@||microsoftstream.com^
+
+@@||stream.office.com^
+
+! ========================================
 ! Training Content
 ! ========================================
 
 @@||vimeo.com^
+
 @@||player.vimeo.com^
+
 @@||vimeocdn.com^
 
 @@||youtube.com^
+
 @@||youtu.be^
 
 @@||youtube-nocookie.com^
@@ -81,6 +88,7 @@
 @@||ytimg.com^
 
 @@||brightcove.com^
+
 @@||brightcovecdn.com^
 
 ! ========================================
