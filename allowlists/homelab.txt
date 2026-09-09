@@ -5,48 +5,43 @@
 ! Self-hosted infrastructure, media,
 ! backup, monitoring and management
 ! services running on Unraid.
-!
-! Used By:
-! - Unraid
-! - Docker
-! - AdGuard Home
-! - Nginx Proxy Manager
-! - Jellyfin
-! - Sonarr
-! - Radarr
-! - Seerr
-! - SABnzbd
-! - Nextcloud
-! - Bitwarden
-! - Duplicati
-! - Uptime Kuma
 ! ========================================
 
-! ========================================
 ! Jellyfin
-! ========================================
 
 @@||jellyfin.org^
 @@||repo.jellyfin.org^
 
-! The Movie Database (TMDb)
+! TMDb
+
+@@||themoviedb.org^
+@@||www.themoviedb.org^
 
 @@||api.themoviedb.org^
+
 @@||image.tmdb.org^
 @@||images.tmdb.org^
 
-@@||themoviedb.org^
 @@||tmdb.org^
 
-! Fanart.tv
+! TVDB
+
+@@||thetvdb.com^
+@@||www.thetvdb.com^
+
+@@||api.thetvdb.com^
+
+! IMDb
+
+@@||imdb.com^
+@@||www.imdb.com^
+
+@@||media-imdb.com^
+
+! Fanart
 
 @@||fanart.tv^
 @@||assets.fanart.tv^
-
-! TheTVDB
-
-@@||thetvdb.com^
-@@||api.thetvdb.com^
 
 ! OpenSubtitles
 
@@ -64,45 +59,72 @@
 
 @@||omdbapi.com^
 
-! ========================================
 ! Sonarr
-! ========================================
 
 @@||sonarr.tv^
 @@||skyhook.sonarr.tv^
+
 @@||services.sonarr.tv^
 
 @@||download.sonarr.tv^
 
-! ========================================
 ! Radarr
-! ========================================
 
 @@||radarr.video^
+
 @@||movies.radarr.video^
 
 @@||download.radarr.video^
 
-! ========================================
-! Seerr / Overseerr
-! ========================================
+! Seerr
 
 @@||overseerr.dev^
 
-! ========================================
 ! SABnzbd
-! ========================================
 
 @@||sabnzbd.org^
 
-! ========================================
-! Docker / Container Registries
-! ========================================
+! NewsDemon
+
+@@||newsdemon.com^
+@@||www.newsdemon.com^
+
+! UsenetServer
+
+@@||usenetserver.com^
+@@||www.usenetserver.com^
+
+! NZBGeek
+
+@@||nzbgeek.info^
+@@||www.nzbgeek.info^
+
+! NZBPlanet
+
+@@||nzbplanet.net^
+@@||www.nzbplanet.net^
+
+! NZBFinder
+
+@@||nzbfinder.ws^
+@@||www.nzbfinder.ws^
+
+! AnimeTosho
+
+@@||animetosho.org^
+
+@@||feed.animetosho.org^
+
+! Docker
 
 @@||docker.io^
+
 @@||registry-1.docker.io^
+
 @@||registry.hub.docker.com^
+
 @@||index.docker.io^
+
 @@||auth.docker.io^
 
 @@||hub.docker.com^
@@ -110,13 +132,12 @@
 @@||production.cloudflare.docker.com^
 
 @@||linuxserver.io^
+
 @@||lscr.io^
 
 @@||ghcr.io^
 
-! ========================================
 ! Unraid
-! ========================================
 
 @@||unraid.net^
 
@@ -130,9 +151,7 @@
 
 @@||plugins.unraid.net^
 
-! ========================================
 ! Nextcloud
-! ========================================
 
 @@||nextcloud.com^
 
@@ -150,20 +169,22 @@
 
 @@||docs.nextcloud.com^
 
-! ========================================
 ! Bitwarden
-! ========================================
 
 @@||bitwarden.com^
+
 @@||bitwarden.eu^
 
 @@||identity.bitwarden.com^
+
 @@||identity.bitwarden.eu^
 
 @@||api.bitwarden.com^
+
 @@||api.bitwarden.eu^
 
 @@||vault.bitwarden.com^
+
 @@||vault.bitwarden.eu^
 
 @@||send.bitwarden.com^
@@ -174,26 +195,15 @@
 
 @@||downloads.bitwarden.com^
 
-! Duo MFA
+! Duo
 
 @@||duosecurity.com^
+
 @@||api.duosecurity.com^
 
-! Licensing & Payments
+@@||duo.com^
 
-@@||stripe.com^
-
-@@||js.stripe.com^
-
-@@||braintreegateway.com^
-
-@@||paypal.com^
-
-@@||paypalobjects.com^
-
-! ========================================
-! AdGuard Home
-! ========================================
+! AdGuard
 
 @@||adguard.com^
 
@@ -201,48 +211,38 @@
 
 @@||adguardteam.github.io^
 
-! ========================================
 ! Nginx Proxy Manager
-! ========================================
-
-! Let's Encrypt
 
 @@||letsencrypt.org^
 
 @@||acme-v02.api.letsencrypt.org^
 
-! ZeroSSL
-
 @@||zerossl.com^
 
 @@||api.zerossl.com^
 
-! ========================================
 ! Duplicati
-! ========================================
 
 @@||duplicati.com^
 
 @@||forum.duplicati.com^
 
-! ========================================
 ! Uptime Kuma
-! ========================================
 
 @@||uptime.kuma.pet^
 
-! ========================================
-! Common Self-Hosted Dependencies
-! ========================================
+! Crazy Domains
+
+@@||crazydomains.com^
+
+@@||crazydomains.com.au^
+
+@@||www.crazydomains.com.au^
+
+! GitHub Dependencies
 
 @@||githubusercontent.com^
 
 @@||raw.githubusercontent.com^
 
 @@||objects.githubusercontent.com^
-
-@@||github.com^
-
-@@||api.github.com^
-
-@@||codeload.github.com^
