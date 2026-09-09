@@ -1,1 +1,124 @@
+! ========================================
+! Homelab
+! ========================================
+! Purpose:
+! Self-hosted infrastructure and media
+! services running on Unraid.
+!
+! Used By:
+! - Unraid
+! - Docker
+! - Jellyfin
+! - Sonarr
+! - Radarr
+! - Seerr
+! - SABnzbd
+! - Nextcloud
+! - Bitwarden
+! ========================================
 
+! Jellyfin / Media
+
+@@||jellyfin.org^
+@@||repo.jellyfin.org^
+
+@@||api.themoviedb.org^
+@@||image.tmdb.org^
+@@||images.tmdb.org^
+
+@@||themoviedb.org^
+@@||tmdb.org^
+
+@@||fanart.tv^
+@@||assets.fanart.tv^
+
+@@||thetvdb.com^
+@@||api.thetvdb.com^
+
+@@||sonarr.tv^
+@@||skyhook.sonarr.tv^
+@@||services.sonarr.tv^
+
+@@||radarr.video^
+@@||movies.radarr.video^
+
+@@||overseerr.dev^
+
+@@||sabnzbd.org^
+
+! Docker
+
+@@||docker.io^
+@@||registry-1.docker.io^
+@@||registry.hub.docker.com^
+@@||index.docker.io^
+@@||auth.docker.io^
+
+@@||hub.docker.com^
+
+@@||production.cloudflare.docker.com^
+
+@@||linuxserver.io^
+@@||lscr.io^
+
+@@||ghcr.io^
+
+! Unraid
+
+@@||unraid.net^
+
+@@||connect.myunraid.net^
+
+@@||events.myunraid.net^
+
+@@||api.myunraid.net^
+
+@@||forums.unraid.net^
+
+@@||plugins.unraid.net^
+
+! Nextcloud
+
+@@||nextcloud.com^
+
+@@||nextcloud.org^
+
+@@||download.nextcloud.com^
+
+@@||apps.nextcloud.com^
+
+@@||updates.nextcloud.com^
+
+! Bitwarden
+
+@@||bitwarden.com^
+@@||bitwarden.eu^
+
+@@||identity.bitwarden.com^
+@@||identity.bitwarden.eu^
+
+@@||api.bitwarden.com^
+@@||api.bitwarden.eu^
+
+@@||vault.bitwarden.com^
+@@||vault.bitwarden.eu^
+
+@@||send.bitwarden.com^
+
+@@||events.bitwarden.com^
+
+@@||icons.bitwarden.net^
+
+@@||duosecurity.com^
+
+@@||api.duosecurity.com^
+
+@@||stripe.com^
+
+@@||js.stripe.com^
+
+@@||braintreegateway.com^
+
+@@||paypal.com^
+
+@@||paypalobjects.com^
