@@ -166,7 +166,7 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 - Steam
 - SteamCMD
 - Steam Community
-- Steam Workshop
+- Steam Dedicated Server Hosting
 - Discord
 - Xbox
 - PlayStation
@@ -229,35 +229,276 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 
 ---
 
+# Homelab Environment Overview
+
+## Network Infrastructure
+
+### UniFi Environment
+
+#### UniFi Dream Machine Pro (UDM Pro)
+
+Primary gateway providing:
+
+- Internet Connectivity
+- Routing
+- Firewall Services
+- VLAN Management
+- WireGuard VPN
+- UniFi Network Controller
+
+#### UniFi Switch
+
+**USW Pro Max 24**
+
+Provides:
+
+- 24 Port Switching
+- 2.5GbE Connectivity
+- VLAN Trunking
+- Inter-VLAN Connectivity
+- High-Speed Backhaul
+
+#### Wireless
+
+**U7 Lite**
+
+Provides:
+
+- Wi-Fi 7 Connectivity
+- Wireless Client Access
+- VLAN-Aware SSIDs
+- Local Network Access
+
+#### DNS & Filtering
+
+- AdGuard Home
+- Community-Maintained Blocklists
+- GitHub-Hosted Custom Allowlists
+- Local DNS Rewrites
+- Automatic Filter Updates
+
+#### Planned VLAN Layout
+
+- Main Network
+- Security Devices
+- Kids Devices
+- Guest / Other Devices
+
+---
+
+## Core Platform
+
+### Unraid Server
+
+Primary self-hosted platform providing:
+
+- Container Hosting
+- Data Storage
+- Application Management
+- Media Services
+- Backup Services
+- Monitoring Services
+
+### Docker
+
+Container platform used for all self-hosted applications.
+
+---
+
+## Self-Hosted Applications
+
+### Media Stack
+
+#### Jellyfin
+
+Media streaming platform used for:
+
+- Movies
+- TV Shows
+- Music
+- Remote Family Access
+
+Metadata Sources:
+
+- TMDb
+- TheTVDB
+- IMDb
+- Fanart.tv
+- MusicBrainz
+- AudioDB
+- OMDb
+
+#### Sonarr
+
+TV Show automation and management.
+
+#### Radarr
+
+Movie automation and management.
+
+#### Seerr
+
+Media request and approval platform.
+
+#### SABnzbd
+
+Usenet download client.
+
+---
+
+## Usenet Services
+
+### Providers
+
+- NewsDemon
+- UsenetServer
+
+### Indexers
+
+- NZBGeek
+- NZBPlanet
+- NZBFinder
+- AnimeTosho
+
+---
+
+## Productivity & Collaboration
+
+### Microsoft 365
+
+Services in use:
+
+- Exchange Online
+- Outlook
+- SharePoint Online
+- OneDrive
+- Microsoft Authentication
+- PowerShell Management
+
+### Nextcloud
+
+Self-hosted file and collaboration platform.
+
+### Bitwarden
+
+Self-hosted password management platform.
+
+### Employment Services
+
+- Employment Hero
+- Dayforce
+- Dayforce Learning
+- Eloomi
+
+---
+
+## Infrastructure Services
+
+### Nginx Proxy Manager (NPM)
+
+Reverse proxy and SSL management.
+
+Certificate Providers:
+
+- Let's Encrypt
+- ZeroSSL
+
+### Uptime Kuma
+
+Service and availability monitoring.
+
+### Duplicati
+
+Backup management platform.
+
+Backup Destination:
+
+- IDrive e2
+
+### GitHub
+
+Source of truth for:
+
+- AdGuard Allowlists
+- Configuration Documentation
+- Change Tracking
+- Version Control
+
+---
+
+## Domain & DNS Providers
+
+### Crazy Domains
+
+- Domain Registration
+- DNS Management
+
+### Cloudflare
+
+- DNS Services
+- CDN Services
+- Security Services
+
+---
+
 ## Current Environment
 
-Services currently covered by these allowlists include:
+### Network
 
-- Microsoft 365
+- UniFi Dream Machine Pro (UDM Pro)
+- USW Pro Max 24
+- U7 Lite
 - AdGuard Home
-- UniFi
+
+### Infrastructure
+
 - Unraid
 - Docker
+- Nginx Proxy Manager
+- Uptime Kuma
+
+### Media
+
 - Jellyfin
 - Sonarr
 - Radarr
 - Seerr
 - SABnzbd
-- Nextcloud
-- Bitwarden
-- Duplicati
-- Uptime Kuma
-- Nginx Proxy Manager
+
+### Usenet
+
 - NewsDemon
 - UsenetServer
+
+### Indexers
+
 - NZBGeek
 - NZBPlanet
 - NZBFinder
 - AnimeTosho
-- Steam
-- Discord
-- Commonwealth Bank
-- myGov
-- ATO
-- Services Australia
-- Centrelink
+
+### Productivity
+
+- Microsoft 365
+- Nextcloud
+- Bitwarden
+
+### Backup
+
+- Duplicati
+- IDrive e2
+
+### Domain & DNS
+
+- Crazy Domains
+- Cloudflare
+
+### Source Control
+
+- GitHub
+
+---
+
+## Design Principles
+
+- Community-maintained blocklists
