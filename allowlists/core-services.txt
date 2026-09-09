@@ -6,10 +6,13 @@
 ! Cloudflare and Infrastructure
 ! ========================================
 
+! ========================================
 ! Microsoft 365
+! ========================================
 
 @@||microsoft.com^
 @@||microsoftonline.com^
+
 @@||login.microsoftonline.com^
 @@||login.microsoft.com^
 @@||login.live.com^
@@ -17,6 +20,9 @@
 @@||office.com^
 @@||office365.com^
 @@||office.net^
+
+@@||officeclient.microsoft.com^
+@@||officeapps.live.com^
 
 @@||outlook.office365.com^
 @@||outlook.com^
@@ -55,7 +61,9 @@
 @@||cdn.oneget.org^
 @@||onegetcdn.azureedge.net^
 
+! ========================================
 ! GitHub
+! ========================================
 
 @@||github.com^
 @@||api.github.com^
@@ -68,7 +76,9 @@
 
 @@||githubassets.com^
 
+! ========================================
 ! UniFi
+! ========================================
 
 @@||ui.com^
 @@||unifi.com^
@@ -77,7 +87,9 @@
 @@||account.ui.com^
 @@||sso.ui.com^
 
+! ========================================
 ! Infrastructure
+! ========================================
 
 @@||cloudflare.com^
 @@||cloudflare-dns.com^
