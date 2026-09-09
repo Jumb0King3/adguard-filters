@@ -27,6 +27,17 @@
 ! - eBay
 ! - Seek
 ! - Indeed
+! - Steam
+! - SteamCMD
+! - Discord
+! - Xbox
+! - PlayStation
+! - Epic Games
+! - Twitch
+! - TikTok
+! - Facebook
+! - Instagram
+! - LinkedIn
 ! - Palworld
 ! - Fandom
 ! - Creality
@@ -41,9 +52,7 @@
 @@||mask.icloud.com^
 @@||mask-h2.icloud.com^
 @@||mask-api.icloud.com^
-
 @@||gateway.icloud.com^
-
 @@||mask.apple-dns.net^
 @@||mask-t.apple-dns.net^
 
@@ -52,28 +61,17 @@
 ! ========================================
 
 @@||apple.com^
-
 @@||icloud.com^
-
 @@||apple-dns.net^
-
 @@||push.apple.com^
-
 @@||ls.apple.com^
 @@||ls2-apple.com^
-
 @@||aaplimg.com^
-
 @@||setup.icloud.com^
-
 @@||appleid.apple.com^
-
 @@||apps.apple.com^
-
 @@||itunes.apple.com^
-
 @@||mzstatic.com^
-
 @@||api.smoot.apple.com^$important
 
 ! ========================================
@@ -81,15 +79,10 @@
 ! ========================================
 
 @@||my.gov.au^
-
 @@||mygov.au^
-
 @@||myid.gov.au^
-
 @@||ato.gov.au^
-
 @@||servicesaustralia.gov.au^
-
 @@||centrelink.gov.au^
 
 ! ========================================
@@ -99,17 +92,13 @@
 ! Commonwealth Bank
 
 @@||commbank.com.au^
-
 @@||www.commbank.com.au^
-
 @@||netbank.commbank.com.au^
-
 @@||commbank-assets.com.au^
 
 ! PayPal
 
 @@||paypal.com^
-
 @@||paypalobjects.com^
 
 ! ========================================
@@ -117,13 +106,9 @@
 ! ========================================
 
 @@||google.com^
-
 @@||google.com.au^
-
 @@||googleapis.com^
-
 @@||gstatic.com^
-
 @@||googleusercontent.com^
 
 ! ========================================
@@ -131,13 +116,9 @@
 ! ========================================
 
 @@||youtube.com^
-
 @@||youtu.be^
-
 @@||youtube-nocookie.com^
-
 @@||ytimg.com^
-
 @@||googlevideo.com^
 
 ! ========================================
@@ -145,13 +126,9 @@
 ! ========================================
 
 @@||reddit.com^
-
 @@||redditmedia.com^
-
 @@||redditstatic.com^
-
 @@||redd.it^
-
 @@||redditinc.com^
 
 ! ========================================
@@ -159,9 +136,7 @@
 ! ========================================
 
 @@||amazon.com^
-
 @@||amazon.com.au^
-
 @@||amazonaws.com^
 
 ! ========================================
@@ -169,7 +144,6 @@
 ! ========================================
 
 @@||ebay.com.au^
-
 @@||ebay.com^
 
 ! ========================================
@@ -183,7 +157,6 @@
 ! ========================================
 
 @@||indeed.com.au^
-
 @@||indeed.com^
 
 ! ========================================
@@ -197,30 +170,173 @@
 ! ========================================
 
 @@||bunnings.com.au^
-
 @@||www.bunnings.com.au^
 
 @@||api.bunnings.com.au^
-
 @@||media.bunnings.com.au^
-
 @@||images.bunnings.com.au^
 
 @@||assets.bunnings.com.au^
-
 @@||cdn.bunnings.com.au^
-
 @@||static.bunnings.com.au^
 
 @@||optimizely.com^
-
 @@||optimizelycdn.com^
 
 @@||scene7.com^
 
 @@||adobesc.com^
-
 @@||adobedtm.com^
+
+! ========================================
+! Steam
+! ========================================
+
+@@||steampowered.com^
+@@||store.steampowered.com^
+
+@@||steamcommunity.com^
+
+@@||steamstatic.com^
+@@||steamusercontent.com^
+@@||steamcontent.com^
+
+@@||steamserver.net^
+@@||steamgames.com^
+
+@@||steam-chat.com^
+
+@@||steam.tv^
+
+@@||help.steampowered.com^
+
+@@||valvesoftware.com^
+
+! Steam CDN
+
+@@||steamcdn-a.akamaihd.net^
+
+@@||fastly.steamstatic.com^
+
+@@||cdn.cloudflare.steamstatic.com^
+
+! SteamCMD
+
+@@||media.steampowered.com^
+
+@@||content.steampowered.com^
+
+@@||partner.steamgames.com^
+
+@@||cdn.akamai.steamstatic.com^
+
+! Dedicated Servers
+
+@@||steamcontent-a.akamaihd.net^
+
+! ========================================
+! Discord
+! ========================================
+
+@@||discord.com^
+
+@@||discord.gg^
+
+@@||discordapp.com^
+
+@@||discordapp.net^
+
+@@||discordmedia.com^
+
+! ========================================
+! Xbox
+! ========================================
+
+@@||xbox.com^
+
+@@||xboxlive.com^
+
+@@||xboxlive.net^
+
+@@||xboxservices.com^
+
+@@||xboxab.com^
+
+! ========================================
+! PlayStation
+! ========================================
+
+@@||playstation.com^
+
+@@||playstation.net^
+
+@@||psnprofiles.com^
+
+! ========================================
+! Epic Games
+! ========================================
+
+@@||epicgames.com^
+
+@@||epicgames.dev^
+
+@@||cdn1.epicgames.com^
+
+@@||unrealengine.com^
+
+! ========================================
+! Twitch
+! ========================================
+
+@@||twitch.tv^
+
+@@||twitchcdn.net^
+
+@@||ttvnw.net^
+
+@@||jtvnw.net^
+
+! ========================================
+! TikTok
+! ========================================
+
+@@||tiktok.com^
+
+@@||tiktokcdn.com^
+
+@@||tiktokv.com^
+
+@@||ibyteimg.com^
+
+! ========================================
+! Facebook
+! ========================================
+
+@@||facebook.com^
+
+@@||fb.com^
+
+@@||fbcdn.net^
+
+@@||fbsbx.com^
+
+@@||messenger.com^
+
+! ========================================
+! Instagram
+! ========================================
+
+@@||instagram.com^
+
+@@||cdninstagram.com^
+
+! ========================================
+! LinkedIn
+! ========================================
+
+@@||linkedin.com^
+
+@@||licdn.com^
 
 ! ========================================
 ! Palworld
@@ -231,7 +347,6 @@
 @@||b.palworldgame.com^$important
 
 @@||palbreed.com^$important
-
 @@||www.palbreed.com^$important
 
 ! ========================================
