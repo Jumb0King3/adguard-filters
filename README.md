@@ -10,10 +10,10 @@ These lists are used with AdGuard Home and automatically updated via GitHub Raw 
 
 | File | Description |
 |--------|-------------|
-| 🌐 `core-services.txt` | Microsoft 365, GitHub, UniFi, Cloudflare, CDNs and infrastructure services |
+| 🌐 `core-services.txt` | Microsoft 365, GitHub, UniFi, Cloudflare, infrastructure services and common CDNs |
 | 🏠 `homelab.txt` | Unraid, Docker, Jellyfin, Sonarr, Radarr, Seerr, SABnzbd, Usenet, Nextcloud, Bitwarden, AdGuard Home, NPM, Duplicati and Uptime Kuma |
-| 👤 `personal.txt` | Apple, Banking, Government, Shopping, Gaming and Popular Websites |
-| 💼 `work.txt` | Employment Hero, Dayforce, Dayforce Learning and Eloomi |
+| 👤 `personal.txt` | Apple, Government, Banking, Shopping, Gaming, Social Media and Popular Websites |
+| 💼 `work.txt` | Employment Hero, Dayforce, Dayforce Learning, Eloomi and training platforms |
 | 🧪 `testing.txt` | Temporary staging area for testing new allowlist entries |
 | 🚫 `testing-blocklist.txt` | Temporary staging area for testing blocklist entries |
 
@@ -23,7 +23,7 @@ These lists are used with AdGuard Home and automatically updated via GitHub Raw 
 
 ### 🌐 Core Services
 
-Microsoft 365, GitHub, UniFi, Cloudflare and common infrastructure services.
+Microsoft 365, GitHub, UniFi, Cloudflare and Infrastructure Services.
 
 ```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/core-services.txt
@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/cor
 
 ### 🏠 Homelab
 
-Self-hosted services running on Unraid.
+Self-hosted services running within the homelab environment.
 
 ```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/homelab.txt
@@ -39,7 +39,7 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/hom
 
 ### 👤 Personal Services
 
-Personal, family, banking, government and entertainment services.
+Personal, family, gaming, social media, banking and government services.
 
 ```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/personal.txt
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/per
 
 ### 💼 Work Services
 
-Employment Hero, Dayforce and training services.
+Work, learning and employment-related services.
 
 ```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/work.txt
@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/wor
 
 ### 🧪 Testing
 
-Temporary allowlist used when validating domains.
+Temporary allowlist used for validation and troubleshooting.
 
 ```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/testing.txt
@@ -131,11 +131,16 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 
 ### 👤 Personal Services
 
+#### Apple
+
 - Apple
 - iCloud
 - Apple ID
 - App Store
 - Apple Private Relay
+
+#### Australian Services
+
 - myGov
 - MyID
 - ATO
@@ -143,6 +148,9 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 - Centrelink
 - Commonwealth Bank
 - PayPal
+
+#### Popular Websites
+
 - Google
 - YouTube
 - Reddit
@@ -152,21 +160,32 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 - Indeed
 - Gumtree
 - Bunnings
-- Palworld
-- Creality Cloud
-- Fandom / Wikia
-- Runaway Play
+
+#### Gaming Platforms
+
 - Steam
 - SteamCMD
+- Steam Community
+- Steam Workshop
 - Discord
 - Xbox
 - PlayStation
 - Epic Games
+- Palworld
+
+#### Social Media
+
 - Twitch
 - TikTok
 - Facebook
 - Instagram
 - LinkedIn
+
+#### Hobby Services
+
+- Creality Cloud
+- Fandom / Wikia
+- Runaway Play
 
 ### 💼 Work Services
 
@@ -174,9 +193,9 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 - Dayforce
 - Dayforce Learning
 - Eloomi
+- Microsoft Stream
 - Vimeo
 - Brightcove
-- Microsoft Stream
 
 ---
 
@@ -186,7 +205,7 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 
 1. Add the domain to `testing.txt`
 2. Verify functionality is restored
-3. Move the domain into the appropriate category file
+3. Move the rule into the appropriate category file
 4. Commit the change to GitHub
 
 ### New Block Rule
@@ -204,5 +223,41 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 - Custom allowlists provide exceptions specific to this environment.
 - GitHub acts as the source of truth.
 - AdGuard Home consumes all lists using Raw GitHub URLs.
+- AdGuard Home automatically updates subscribed lists.
 - AdGuard Home caches downloaded lists locally.
-- DNS filtering continues to function during internet outages using the last downloaded copy of each list.
+- DNS filtering continues working during internet outages using the most recently downloaded copy of each list.
+
+---
+
+## Current Environment
+
+Services currently covered by these allowlists include:
+
+- Microsoft 365
+- AdGuard Home
+- UniFi
+- Unraid
+- Docker
+- Jellyfin
+- Sonarr
+- Radarr
+- Seerr
+- SABnzbd
+- Nextcloud
+- Bitwarden
+- Duplicati
+- Uptime Kuma
+- Nginx Proxy Manager
+- NewsDemon
+- UsenetServer
+- NZBGeek
+- NZBPlanet
+- NZBFinder
+- AnimeTosho
+- Steam
+- Discord
+- Commonwealth Bank
+- myGov
+- ATO
+- Services Australia
+- Centrelink
