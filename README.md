@@ -156,6 +156,7 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 - Creality Cloud
 - Fandom / Wikia
 - Runaway Play
+- Steam
 
 ### 💼 Work Services
 
