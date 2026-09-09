@@ -15,6 +15,7 @@
 ! - Apple Private Relay
 ! - Commonwealth Bank
 ! - myGov
+! - MyID
 ! - ATO
 ! - Services Australia
 ! - Centrelink
@@ -80,7 +81,10 @@
 ! ========================================
 
 @@||my.gov.au^
+
 @@||mygov.au^
+
+@@||myid.gov.au^
 
 @@||ato.gov.au^
 
@@ -95,9 +99,12 @@
 ! Commonwealth Bank
 
 @@||commbank.com.au^
+
 @@||www.commbank.com.au^
 
 @@||netbank.commbank.com.au^
+
+@@||commbank-assets.com.au^
 
 ! PayPal
 
@@ -106,19 +113,22 @@
 @@||paypalobjects.com^
 
 ! ========================================
-! Popular Websites
+! Google
 ! ========================================
 
-! Google
-
 @@||google.com^
+
 @@||google.com.au^
 
 @@||googleapis.com^
 
 @@||gstatic.com^
 
+@@||googleusercontent.com^
+
+! ========================================
 ! YouTube
+! ========================================
 
 @@||youtube.com^
 
@@ -128,7 +138,11 @@
 
 @@||ytimg.com^
 
+@@||googlevideo.com^
+
+! ========================================
 ! Reddit
+! ========================================
 
 @@||reddit.com^
 
@@ -136,23 +150,37 @@
 
 @@||redditstatic.com^
 
+@@||redd.it^
+
+@@||redditinc.com^
+
+! ========================================
 ! Amazon
+! ========================================
 
 @@||amazon.com^
 
 @@||amazon.com.au^
 
+@@||amazonaws.com^
+
+! ========================================
 ! eBay
+! ========================================
 
 @@||ebay.com.au^
 
 @@||ebay.com^
 
+! ========================================
 ! Seek
+! ========================================
 
 @@||seek.com.au^
 
+! ========================================
 ! Indeed
+! ========================================
 
 @@||indeed.com.au^
 
@@ -169,22 +197,29 @@
 ! ========================================
 
 @@||bunnings.com.au^
+
 @@||www.bunnings.com.au^
 
 @@||api.bunnings.com.au^
+
 @@||media.bunnings.com.au^
+
 @@||images.bunnings.com.au^
 
 @@||assets.bunnings.com.au^
+
 @@||cdn.bunnings.com.au^
+
 @@||static.bunnings.com.au^
 
 @@||optimizely.com^
+
 @@||optimizelycdn.com^
 
 @@||scene7.com^
 
 @@||adobesc.com^
+
 @@||adobedtm.com^
 
 ! ========================================
@@ -196,6 +231,7 @@
 @@||b.palworldgame.com^$important
 
 @@||palbreed.com^$important
+
 @@||www.palbreed.com^$important
 
 ! ========================================
@@ -209,12 +245,6 @@
 ! ========================================
 
 @@||firebaseio.com^
-
-@@||googleapis.com^
-
-@@||gstatic.com^
-
-@@||googleusercontent.com^
 
 @@||app-measurement.com^
 
@@ -233,15 +263,36 @@
 @@||applovin.com^
 
 ! ========================================
-! CDN Services
-! ========================================
-
-@@||amazonaws.com^
-
-! ========================================
 ! Creality
 ! ========================================
 
 @@||creality.com^
 
-@@||crealitycloud.com
+@@||crealitycloud.com^
+
+@@||file-cdn.creality.com^
+
+@@||file2-cdn.creality.com^
+
+! ========================================
+! Fandom / Wikia
+! ========================================
+
+@@||fandom.com^
+@@||*.fandom.com^
+
+@@||wikia.com^
+@@||*.wikia.com^
+
+@@||nocookie.net^
+@@||*.nocookie.net^
+
+@@||beacon.wikia-services.com^
+@@||*.wikia-services.com^
+
+@@||fandomdigitaldistribution.com^
+@@||*.fandomdigitaldistribution.com^
+
+@@||static.wikia.nocookie.net^
+
+@@||vignette.wikia.nocookie.net^
