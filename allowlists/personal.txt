@@ -4,14 +4,28 @@
 ! Purpose:
 ! Personal and family services including
 ! Apple services, gaming platforms,
-! hobby services, shopping sites and
-! marketplace applications.
+! hobby services, shopping sites,
+! government services, financial
+! institutions and popular websites.
 !
 ! Used By:
 ! - Apple Devices
 ! - iCloud
 ! - App Store
 ! - Apple Private Relay
+! - Commonwealth Bank
+! - myGov
+! - ATO
+! - Services Australia
+! - Centrelink
+! - PayPal
+! - Google
+! - YouTube
+! - Reddit
+! - Amazon
+! - eBay
+! - Seek
+! - Indeed
 ! - Palworld
 ! - Fandom
 ! - Creality
@@ -60,6 +74,89 @@
 @@||mzstatic.com^
 
 @@||api.smoot.apple.com^$important
+
+! ========================================
+! Government Services
+! ========================================
+
+@@||my.gov.au^
+@@||mygov.au^
+
+@@||ato.gov.au^
+
+@@||servicesaustralia.gov.au^
+
+@@||centrelink.gov.au^
+
+! ========================================
+! Banking & Financial Services
+! ========================================
+
+! Commonwealth Bank
+
+@@||commbank.com.au^
+@@||www.commbank.com.au^
+
+@@||netbank.commbank.com.au^
+
+! PayPal
+
+@@||paypal.com^
+
+@@||paypalobjects.com^
+
+! ========================================
+! Popular Websites
+! ========================================
+
+! Google
+
+@@||google.com^
+@@||google.com.au^
+
+@@||googleapis.com^
+
+@@||gstatic.com^
+
+! YouTube
+
+@@||youtube.com^
+
+@@||youtu.be^
+
+@@||youtube-nocookie.com^
+
+@@||ytimg.com^
+
+! Reddit
+
+@@||reddit.com^
+
+@@||redditmedia.com^
+
+@@||redditstatic.com^
+
+! Amazon
+
+@@||amazon.com^
+
+@@||amazon.com.au^
+
+! eBay
+
+@@||ebay.com.au^
+
+@@||ebay.com^
+
+! Seek
+
+@@||seek.com.au^
+
+! Indeed
+
+@@||indeed.com.au^
+
+@@||indeed.com^
 
 ! ========================================
 ! Gumtree
@@ -147,31 +244,4 @@
 
 @@||creality.com^
 
-@@||crealitycloud.com^
-
-@@||file-cdn.creality.com^
-
-@@||file2-cdn.creality.com^
-
-! ========================================
-! Fandom / Wikia
-! ========================================
-
-@@||fandom.com^
-@@||*.fandom.com^
-
-@@||wikia.com^
-@@||*.wikia.com^
-
-@@||nocookie.net^
-@@||*.nocookie.net^
-
-@@||beacon.wikia-services.com^
-@@||*.wikia-services.com^
-
-@@||fandomdigitaldistribution.com^
-@@||*.fandomdigitaldistribution.com^
-
-@@||static.wikia.nocookie.net^
-
-@@||vignette.wikia.nocookie.net^
+@@||crealitycloud.com
