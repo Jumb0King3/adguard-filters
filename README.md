@@ -10,18 +10,10 @@ These lists are used with AdGuard Home and are automatically updated via GitHub 
 
 | File | Description |
 |--------|-------------|
-| 📧 `m365.txt` | Microsoft 365, Outlook, SharePoint, OneDrive, PowerShell Gallery and NuGet |
-| 🐙 `github.txt` | GitHub services, releases, downloads and raw content |
-| 🌐 `unifi.txt` | UniFi cloud services and account management |
-| 🎬 `media-stack.txt` | Jellyfin, Sonarr, Radarr, Seerr, SABnzbd and metadata providers |
-| 🐳 `docker.txt` | Docker Hub, LinuxServer.io and GitHub Container Registry |
-| 💾 `unraid.txt` | Unraid services, plugins and community applications |
-| ☁️ `nextcloud.txt` | Nextcloud downloads, apps and updates |
-| 🔐 `bitwarden.txt` | Self-hosted Bitwarden, Duo MFA and licensing services |
-| 💼 `work.txt` | Employment Hero, Dayforce and Eloomi |
-| 🛒 `shopping.txt` | Bunnings, Gumtree and related shopping services |
-| 🎮 `gaming.txt` | Gaming services, APIs and community resources |
-| 🍎 `apple.txt` | Apple services, iCloud and Private Relay |
+| 🌐 `core-services.txt` | Microsoft 365, GitHub, UniFi, Cloudflare, CDNs and infrastructure services |
+| 🏠 `homelab.txt` | Unraid, Docker, Jellyfin, Sonarr, Radarr, Seerr, SABnzbd, Nextcloud and Bitwarden |
+| 👤 `personal.txt` | Apple, Banking, Government, PayPal, Shopping, Gaming and Popular Websites |
+| 💼 `work.txt` | Employment Hero, Dayforce, Dayforce Learning and Eloomi |
 | 🧪 `testing.txt` | Temporary staging area for testing new allowlist entries |
 | 🚫 `testing-blocklist.txt` | Temporary staging area for testing blocklist entries |
 
@@ -29,82 +21,28 @@ These lists are used with AdGuard Home and are automatically updated via GitHub 
 
 ## Allowlists
 
-### Microsoft 365
+### Core Services
 
 ```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/m365.txt
+https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/core-services.txt
 ```
 
-### GitHub
+### Homelab
 
 ```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/github.txt
+https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/homelab.txt
 ```
 
-### Infrastructure
+### Personal Services
 
 ```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/infrastructure.txt
-```
-
-### UniFi
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/unifi.txt
-```
-
-### Media Stack
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/media-stack.txt
-```
-
-### Unraid
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/unraid.txt
-```
-
-### Docker
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/docker.txt
-```
-
-### Nextcloud
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/nextcloud.txt
-```
-
-### Bitwarden
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/bitwarden.txt
+https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/personal.txt
 ```
 
 ### Work Services
 
 ```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/work.txt
-```
-
-### Shopping
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/shopping.txt
-```
-
-### Gaming
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/gaming.txt
-```
-
-### Apple
-
-```text
-https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/apple.txt
 ```
 
 ### Testing
@@ -122,6 +60,65 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/allowlists/tes
 ```text
 https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/testing-blocklist.txt
 ```
+
+---
+
+## What's Included
+
+### 🌐 Core Services
+
+- Microsoft 365
+- Outlook
+- SharePoint
+- OneDrive
+- GitHub
+- UniFi
+- Cloudflare
+- Common CDNs
+- Time Synchronisation
+
+### 🏠 Homelab
+
+- Unraid
+- Docker
+- LinuxServer.io
+- Jellyfin
+- Sonarr
+- Radarr
+- Seerr
+- SABnzbd
+- Nextcloud
+- Self-hosted Bitwarden
+
+### 👤 Personal Services
+
+- Apple & iCloud
+- Apple Private Relay
+- Commonwealth Bank
+- myGov
+- ATO
+- Services Australia
+- Centrelink
+- PayPal
+- Google
+- YouTube
+- Reddit
+- Amazon
+- eBay
+- Seek
+- Indeed
+- Gumtree
+- Bunnings
+- Palworld
+- Creality
+- Fandom
+
+### 💼 Work Services
+
+- Employment Hero
+- Dayforce
+- Dayforce Learning
+- Eloomi
 
 ---
 
