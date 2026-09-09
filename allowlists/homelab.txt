@@ -2,12 +2,15 @@
 ! Homelab
 ! ========================================
 ! Purpose:
-! Self-hosted infrastructure and media
+! Self-hosted infrastructure, media,
+! backup, monitoring and management
 ! services running on Unraid.
 !
 ! Used By:
 ! - Unraid
 ! - Docker
+! - AdGuard Home
+! - Nginx Proxy Manager
 ! - Jellyfin
 ! - Sonarr
 ! - Radarr
@@ -15,12 +18,18 @@
 ! - SABnzbd
 ! - Nextcloud
 ! - Bitwarden
+! - Duplicati
+! - Uptime Kuma
 ! ========================================
 
-! Jellyfin / Media
+! ========================================
+! Jellyfin
+! ========================================
 
 @@||jellyfin.org^
 @@||repo.jellyfin.org^
+
+! The Movie Database (TMDb)
 
 @@||api.themoviedb.org^
 @@||image.tmdb.org^
@@ -29,24 +38,66 @@
 @@||themoviedb.org^
 @@||tmdb.org^
 
+! Fanart.tv
+
 @@||fanart.tv^
 @@||assets.fanart.tv^
 
+! TheTVDB
+
 @@||thetvdb.com^
 @@||api.thetvdb.com^
+
+! OpenSubtitles
+
+@@||opensubtitles.com^
+
+! MusicBrainz
+
+@@||musicbrainz.org^
+
+! AudioDB
+
+@@||theaudiodb.com^
+
+! OMDb
+
+@@||omdbapi.com^
+
+! ========================================
+! Sonarr
+! ========================================
 
 @@||sonarr.tv^
 @@||skyhook.sonarr.tv^
 @@||services.sonarr.tv^
 
+@@||download.sonarr.tv^
+
+! ========================================
+! Radarr
+! ========================================
+
 @@||radarr.video^
 @@||movies.radarr.video^
 
+@@||download.radarr.video^
+
+! ========================================
+! Seerr / Overseerr
+! ========================================
+
 @@||overseerr.dev^
+
+! ========================================
+! SABnzbd
+! ========================================
 
 @@||sabnzbd.org^
 
-! Docker
+! ========================================
+! Docker / Container Registries
+! ========================================
 
 @@||docker.io^
 @@||registry-1.docker.io^
@@ -63,7 +114,9 @@
 
 @@||ghcr.io^
 
+! ========================================
 ! Unraid
+! ========================================
 
 @@||unraid.net^
 
@@ -77,7 +130,9 @@
 
 @@||plugins.unraid.net^
 
+! ========================================
 ! Nextcloud
+! ========================================
 
 @@||nextcloud.com^
 
@@ -89,7 +144,15 @@
 
 @@||updates.nextcloud.com^
 
+@@||push-notifications.nextcloud.com^
+
+@@||nextcloud.news^
+
+@@||docs.nextcloud.com^
+
+! ========================================
 ! Bitwarden
+! ========================================
 
 @@||bitwarden.com^
 @@||bitwarden.eu^
@@ -109,9 +172,14 @@
 
 @@||icons.bitwarden.net^
 
-@@||duosecurity.com^
+@@||downloads.bitwarden.com^
 
+! Duo MFA
+
+@@||duosecurity.com^
 @@||api.duosecurity.com^
+
+! Licensing & Payments
 
 @@||stripe.com^
 
@@ -122,3 +190,59 @@
 @@||paypal.com^
 
 @@||paypalobjects.com^
+
+! ========================================
+! AdGuard Home
+! ========================================
+
+@@||adguard.com^
+
+@@||adguard-dns.io^
+
+@@||adguardteam.github.io^
+
+! ========================================
+! Nginx Proxy Manager
+! ========================================
+
+! Let's Encrypt
+
+@@||letsencrypt.org^
+
+@@||acme-v02.api.letsencrypt.org^
+
+! ZeroSSL
+
+@@||zerossl.com^
+
+@@||api.zerossl.com^
+
+! ========================================
+! Duplicati
+! ========================================
+
+@@||duplicati.com^
+
+@@||forum.duplicati.com^
+
+! ========================================
+! Uptime Kuma
+! ========================================
+
+@@||uptime.kuma.pet^
+
+! ========================================
+! Common Self-Hosted Dependencies
+! ========================================
+
+@@||githubusercontent.com^
+
+@@||raw.githubusercontent.com^
+
+@@||objects.githubusercontent.com^
+
+@@||github.com^
+
+@@||api.github.com^
+
+@@||codeload.github.com^
