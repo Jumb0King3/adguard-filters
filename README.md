@@ -157,6 +157,16 @@ https://raw.githubusercontent.com/Jumb0King3/adguard-filters/main/blocklists/tes
 - Fandom / Wikia
 - Runaway Play
 - Steam
+- SteamCMD
+- Discord
+- Xbox
+- PlayStation
+- Epic Games
+- Twitch
+- TikTok
+- Facebook
+- Instagram
+- LinkedIn
 
 ### 💼 Work Services
 
