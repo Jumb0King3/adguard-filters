@@ -107,9 +107,6 @@
 
 @@||google.com^
 @@||google.com.au^
-@@||googleapis.com^
-@@||gstatic.com^
-@@||googleusercontent.com^
 
 ! ========================================
 ! YouTube
@@ -137,7 +134,6 @@
 
 @@||amazon.com^
 @@||amazon.com.au^
-@@||amazonaws.com^
 
 ! ========================================
 ! eBay
@@ -230,7 +226,7 @@
 
 @@||cdn.akamai.steamstatic.com^
 
-! Dedicated Servers
+! Dedicated Server Hosting
 
 @@||steamcontent-a.akamaihd.net^
 
@@ -360,6 +356,8 @@
 ! ========================================
 
 @@||firebaseio.com^
+
+@@||googleusercontent.com^
 
 @@||app-measurement.com^
 
