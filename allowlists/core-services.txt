@@ -1,1 +1,109 @@
+! ========================================
+! Core Services
+! ========================================
+! Purpose:
+! Core internet and infrastructure
+! services required throughout the
+! homelab environment.
+!
+! Used By:
+! - Microsoft 365
+! - GitHub
+! - UniFi
+! - Cloudflare
+! - Content Delivery Networks
+! - Time Synchronisation
+! ========================================
 
+! Microsoft 365
+
+@@||microsoft.com^
+@@||microsoftonline.com^
+@@||login.microsoftonline.com^
+@@||login.microsoft.com^
+@@||login.live.com^
+
+@@||office.com^
+@@||office365.com^
+@@||office.net^
+
+@@||outlook.office365.com^
+@@||outlook.com^
+
+@@||sharepoint.com^
+@@||sharepointonline.com^
+@@||my.sharepoint.com^
+
+@@||onedrive.com^
+
+@@||live.com^
+
+@@||msauth.net^
+@@||msftauth.net^
+
+@@||aadcdn.msftauth.net^
+@@||aadcdn.msauth.net^
+@@||aadcdn.microsoftonline-p.com^
+
+@@||graph.microsoft.com^
+@@||graph.windows.net^
+
+@@||device.login.microsoftonline.com^
+
+@@||go.microsoft.com^
+
+@@||powershellgallery.com^
+@@||www.powershellgallery.com^
+@@||cdn.powershellgallery.com^
+
+@@||nuget.org^
+@@||www.nuget.org^
+@@||api.nuget.org^
+@@||dist.nuget.org^
+
+@@||cdn.oneget.org^
+@@||onegetcdn.azureedge.net^
+
+! GitHub
+
+@@||github.com^
+@@||api.github.com^
+@@||codeload.github.com^
+@@||githubusercontent.com^
+@@||raw.githubusercontent.com^
+@@||objects.githubusercontent.com^
+@@||githubassets.com^
+
+! UniFi
+
+@@||ui.com^
+@@||unifi.com^
+@@||ubnt.com^
+@@||account.ui.com^
+@@||sso.ui.com^
+
+! Cloudflare / Infrastructure
+
+@@||cloudflare.com^
+@@||cloudflare-dns.com^
+@@||challenges.cloudflare.com^
+@@||api.cloudflare.com^
+@@||dash.cloudflare.com^
+
+@@||pool.ntp.org^
+@@||time.windows.com^
+
+@@||cdn.jsdelivr.net^
+@@||cdnjs.cloudflare.com^
+
+@@||fonts.googleapis.com^
+@@||fonts.gstatic.com^
+
+@@||fastly.net^
+
+@@||akamaized.net^
+@@||akamaihd.net^
+@@||edgekey.net^
+@@||edgesuite.net^
+
+@@||cloudfront.net^
