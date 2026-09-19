@@ -1,279 +1,230 @@
-! ========================================
-! Homelab
-! ========================================
-! Purpose:
-! Self-hosted infrastructure, media,
-! backup, monitoring and management
-! services running on Unraid.
-!
-! Used By:
-! - Unraid
-! - Docker
-! - AdGuard Home
-! - Nginx Proxy Manager
-! - Jellyfin
-! - Sonarr
-! - Radarr
-! - Seerr
-! - SABnzbd
-! - NewsDemon
-! - UsenetServer
-! - NZBGeek
-! - NZBPlanet
-! - NZBFinder
-! - AnimeTosho
-! - Nextcloud
-! - Bitwarden
-! - Duplicati
-! - Uptime Kuma
-! ========================================
+#
+# Infrastructure
+#
 
-! ========================================
-! Jellyfin
-! ========================================
+github.com
+api.github.com
+raw.githubusercontent.com
+githubusercontent.com
+objects.githubusercontent.com
 
-@@||jellyfin.org^
-@@||repo.jellyfin.org^
+docker.com
+docker.io
+hub.docker.com
+registry-1.docker.io
+auth.docker.io
+production.cloudflare.docker.com
 
-! TMDb
+ghcr.io
+pkg-containers.githubusercontent.com
 
-@@||themoviedb.org^
-@@||www.themoviedb.org^
+linuxserver.io
 
-@@||api.themoviedb.org^
+#
+# Cloudflare / DNS
+#
 
-@@||image.tmdb.org^
-@@||images.tmdb.org^
+cloudflare.com
+dash.cloudflare.com
+api.cloudflare.com
+cloudflare-dns.com
+cdnjs.cloudflare.com
 
-@@||tmdb.org^
+#
+# SSL Certificates
+#
 
-! TVDB
+letsencrypt.org
+acme-v02.api.letsencrypt.org
+lencr.org
 
-@@||thetvdb.com^
-@@||www.thetvdb.com^
+#
+# Nginx Proxy Manager
+#
 
-@@||api.thetvdb.com^
+nginxproxymanager.com
 
-@@||artworks.thetvdb.com^
+#
+# AdGuard Home
+#
 
-! IMDb
+adguard.com
+adguard-dns.io
+adguard-dns.com
 
-@@||imdb.com^
-@@||www.imdb.com^
+#
+# Bitwarden / Vaultwarden
+#
 
-@@||media-imdb.com^
+bitwarden.com
+vault.bitwarden.com
+api.bitwarden.com
+identity.bitwarden.com
+events.bitwarden.com
 
-! Fanart
+#
+# Nextcloud
+#
 
-@@||fanart.tv^
-@@||assets.fanart.tv^
+nextcloud.com
+download.nextcloud.com
+apps.nextcloud.com
 
-! OpenSubtitles
+#
+# Jellyfin Metadata
+#
 
-@@||opensubtitles.com^
+jellyfin.org
+repo.jellyfin.org
 
-! MusicBrainz
+themoviedb.org
+api.themoviedb.org
+images.tmdb.org
 
-@@||musicbrainz.org^
+thetvdb.com
+api.thetvdb.com
 
-! AudioDB
+fanart.tv
 
-@@||theaudiodb.com^
+imdb.com
+www.imdb.com
+media-amazon.com
 
-! OMDb
+opensubtitles.com
+opensubtitles.org
 
-@@||omdbapi.com^
+musicbrainz.org
+coverartarchive.org
 
-! Sonarr
+omdbapi.com
 
-@@||sonarr.tv^
+#
+# Sonarr / Radarr / Arr Stack
+#
 
-@@||skyhook.sonarr.tv^
+sonarr.tv
+radarr.video
+prowlarr.com
 
-@@||services.sonarr.tv^
+#
+# Usenet Providers & Indexers
+#
 
-@@||download.sonarr.tv^
+sabnzbd.org
 
-! Radarr
+newsdemon.com
+www.newsdemon.com
 
-@@||radarr.video^
+usenetserver.com
+www.usenetserver.com
 
-@@||movies.radarr.video^
+nzbgeek.info
+www.nzbgeek.info
 
-@@||download.radarr.video^
+nzbplanet.net
+www.nzbplanet.net
 
-! Seerr
+nzbfinder.ws
+www.nzbfinder.ws
 
-@@||overseerr.dev^
+animetosho.org
 
-! SABnzbd
+#
+# Duplicati
+#
 
-@@||sabnzbd.org^
+duplicati.com
+updates.duplicati.com
 
-! NewsDemon
+#
+# RustDesk
+#
 
-@@||newsdemon.com^
-@@||www.newsdemon.com^
+rustdesk.com
+api.rustdesk.com
 
-! UsenetServer
+#
+# HandBrake
+#
 
-@@||usenetserver.com^
-@@||www.usenetserver.com^
+handbrake.fr
 
-! NZBGeek
+#
+# Gotify
+#
 
-@@||nzbgeek.info^
-@@||www.nzbgeek.info^
+gotify.net
 
-@@||cdn.nzbgeek.info^
+#
+# Redis
+#
 
-! NZBPlanet
+redis.io
 
-@@||nzbplanet.net^
-@@||www.nzbplanet.net^
+#
+# Pterodactyl
+#
 
-! NZBFinder
+pterodactyl.io
+panel.pterodactyl.io
 
-@@||nzbfinder.ws^
-@@||www.nzbfinder.ws^
+#
+# Steam / SteamCMD / Game Hosting
+#
 
-! AnimeTosho
+steampowered.com
+api.steampowered.com
+partner.steamgames.com
 
-@@||animetosho.org^
+steamcommunity.com
+steamstatic.com
+steamusercontent.com
 
-@@||feed.animetosho.org^
+steamcontent.com
+steamserverbrowser.com
 
-! Docker
+steamcmd.net
 
-@@||docker.io^
+akamaihd.net
 
-@@||registry-1.docker.io^
+#
+# RimWorld Together
+#
 
-@@||registry.hub.docker.com^
+rimworldgame.com
 
-@@||index.docker.io^
+#
+# Epic Games
+#
 
-@@||auth.docker.io^
+epicgames.com
+epicgames.dev
+unrealengine.com
 
-@@||hub.docker.com^
+#
+# Xbox / Microsoft Gaming
+#
 
-@@||production.cloudflare.docker.com^
+xbox.com
+xboxlive.com
 
-@@||linuxserver.io^
+#
+# PowerShell / Package Management
+#
 
-@@||lscr.io^
+powershellgallery.com
 
-@@||ghcr.io^
+nuget.org
+www.nuget.org
+api.nuget.org
 
-! Unraid
+cdn.oneget.org
+onegetcdn.azureedge.net
 
-@@||unraid.net^
+#
+# General Microsoft Services
+#
 
-@@||connect.myunraid.net^
-
-@@||events.myunraid.net^
-
-@@||api.myunraid.net^
-
-@@||forums.unraid.net^
-
-@@||plugins.unraid.net^
-
-! Nextcloud
-
-@@||nextcloud.com^
-
-@@||nextcloud.org^
-
-@@||download.nextcloud.com^
-
-@@||apps.nextcloud.com^
-
-@@||updates.nextcloud.com^
-
-@@||push-notifications.nextcloud.com^
-
-@@||nextcloud.news^
-
-@@||docs.nextcloud.com^
-
-@@||help.nextcloud.com^
-
-! Bitwarden
-
-@@||bitwarden.com^
-
-@@||bitwarden.eu^
-
-@@||identity.bitwarden.com^
-
-@@||identity.bitwarden.eu^
-
-@@||api.bitwarden.com^
-
-@@||api.bitwarden.eu^
-
-@@||vault.bitwarden.com^
-
-@@||vault.bitwarden.eu^
-
-@@||send.bitwarden.com^
-
-@@||events.bitwarden.com^
-
-@@||icons.bitwarden.net^
-
-@@||downloads.bitwarden.com^
-
-! Duo
-
-@@||duosecurity.com^
-
-@@||api.duosecurity.com^
-
-@@||duo.com^
-
-! AdGuard
-
-@@||adguard.com^
-
-@@||adguard-dns.io^
-
-@@||adguardteam.github.io^
-
-! Nginx Proxy Manager
-
-@@||letsencrypt.org^
-
-@@||acme-v02.api.letsencrypt.org^
-
-@@||zerossl.com^
-
-@@||api.zerossl.com^
-
-! Duplicati
-
-@@||duplicati.com^
-
-@@||forum.duplicati.com^
-
-@@||idrivee2.com^
-@@||*.idrivee2.com^
-
-@@||idriveinc.com^
-@@||*.idriveinc.com^
-
-! Uptime Kuma
-
-@@||uptime.kuma.pet^
-
-! Crazy Domains
-
-@@||crazydomains.com^
-
-@@||crazydomains.com.au^
-
-@@||www.crazydomains.com.au^
-
-@@||myaccount.crazydomains.com^
-``
+microsoft.com
+login.microsoftonline.com
+graph.microsoft.com
