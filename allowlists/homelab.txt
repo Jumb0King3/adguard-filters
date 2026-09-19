@@ -1,230 +1,284 @@
-#
-# Infrastructure
-#
+! ========================================
+! Homelab
+! ========================================
+! Purpose:
+! Unraid, Docker, Media,
+! Backups, Game Servers,
+! Remote Access and Supporting Services
+! ========================================
 
-github.com
-api.github.com
-raw.githubusercontent.com
-githubusercontent.com
-objects.githubusercontent.com
+! ========================================
+! Docker / Container Updates
+! ========================================
 
-docker.com
-docker.io
-hub.docker.com
-registry-1.docker.io
-auth.docker.io
-production.cloudflare.docker.com
+@@||docker.com^
+@@||docker.io^
 
-ghcr.io
-pkg-containers.githubusercontent.com
+@@||hub.docker.com^
+@@||registry-1.docker.io^
+@@||auth.docker.io^
 
-linuxserver.io
+@@||production.cloudflare.docker.com^
 
-#
-# Cloudflare / DNS
-#
+@@||ghcr.io^
+@@||pkg-containers.githubusercontent.com^
 
-cloudflare.com
-dash.cloudflare.com
-api.cloudflare.com
-cloudflare-dns.com
-cdnjs.cloudflare.com
+@@||linuxserver.io^
 
-#
-# SSL Certificates
-#
+! ========================================
+! GitHub
+! ========================================
 
-letsencrypt.org
-acme-v02.api.letsencrypt.org
-lencr.org
+@@||github.com^
+@@||api.github.com^
 
-#
-# Nginx Proxy Manager
-#
+@@||codeload.github.com^
 
-nginxproxymanager.com
+@@||githubusercontent.com^
+@@||raw.githubusercontent.com^
+@@||objects.githubusercontent.com^
 
-#
-# AdGuard Home
-#
+@@||githubassets.com^
 
-adguard.com
-adguard-dns.io
-adguard-dns.com
+! ========================================
+! Cloudflare
+! ========================================
 
-#
-# Bitwarden / Vaultwarden
-#
+@@||cloudflare.com^
+@@||cloudflare-dns.com^
 
-bitwarden.com
-vault.bitwarden.com
-api.bitwarden.com
-identity.bitwarden.com
-events.bitwarden.com
+@@||api.cloudflare.com^
+@@||dash.cloudflare.com^
 
-#
-# Nextcloud
-#
+! ========================================
+! Let's Encrypt
+! ========================================
 
-nextcloud.com
-download.nextcloud.com
-apps.nextcloud.com
+@@||letsencrypt.org^
 
-#
-# Jellyfin Metadata
-#
+@@||acme-v02.api.letsencrypt.org^
 
-jellyfin.org
-repo.jellyfin.org
+@@||lencr.org^
 
-themoviedb.org
-api.themoviedb.org
-images.tmdb.org
+! ========================================
+! Nginx Proxy Manager
+! ========================================
 
-thetvdb.com
-api.thetvdb.com
+@@||nginxproxymanager.com^
 
-fanart.tv
+! ========================================
+! AdGuard Home
+! ========================================
 
-imdb.com
-www.imdb.com
-media-amazon.com
+@@||adguard.com^
 
-opensubtitles.com
-opensubtitles.org
+@@||adguard-dns.io^
+@@||adguard-dns.com^
 
-musicbrainz.org
-coverartarchive.org
+! ========================================
+! Bitwarden / Vaultwarden
+! ========================================
 
-omdbapi.com
+@@||bitwarden.com^
 
-#
-# Sonarr / Radarr / Arr Stack
-#
+@@||vault.bitwarden.com^
 
-sonarr.tv
-radarr.video
-prowlarr.com
+@@||api.bitwarden.com^
+@@||identity.bitwarden.com^
+@@||events.bitwarden.com^
 
-#
-# Usenet Providers & Indexers
-#
+! ========================================
+! Nextcloud
+! ========================================
 
-sabnzbd.org
+@@||nextcloud.com^
 
-newsdemon.com
-www.newsdemon.com
+@@||download.nextcloud.com^
 
-usenetserver.com
-www.usenetserver.com
+@@||apps.nextcloud.com^
 
-nzbgeek.info
-www.nzbgeek.info
+! ========================================
+! Duplicati
+! ========================================
 
-nzbplanet.net
-www.nzbplanet.net
+@@||duplicati.com^
 
-nzbfinder.ws
-www.nzbfinder.ws
+@@||updates.duplicati.com^
 
-animetosho.org
+! ========================================
+! Jellyfin
+! ========================================
 
-#
-# Duplicati
-#
+@@||jellyfin.org^
 
-duplicati.com
-updates.duplicati.com
+@@||repo.jellyfin.org^
 
-#
-# RustDesk
-#
+! ========================================
+! Jellyfin Metadata
+! ========================================
 
-rustdesk.com
-api.rustdesk.com
+@@||themoviedb.org^
+@@||api.themoviedb.org^
+@@||images.tmdb.org^
 
-#
-# HandBrake
-#
+@@||thetvdb.com^
+@@||api.thetvdb.com^
 
-handbrake.fr
+@@||fanart.tv^
 
-#
-# Gotify
-#
+@@||imdb.com^
+@@||www.imdb.com^
 
-gotify.net
+@@||media-amazon.com^
 
-#
-# Redis
-#
+@@||opensubtitles.com^
+@@||opensubtitles.org^
 
-redis.io
+@@||musicbrainz.org^
 
-#
-# Pterodactyl
-#
+@@||coverartarchive.org^
 
-pterodactyl.io
-panel.pterodactyl.io
+@@||omdbapi.com^
 
-#
-# Steam / SteamCMD / Game Hosting
-#
+! ========================================
+! Seerr
+! ========================================
 
-steampowered.com
-api.steampowered.com
-partner.steamgames.com
+@@||seerr.dev^
 
-steamcommunity.com
-steamstatic.com
-steamusercontent.com
+! ========================================
+! Sonarr / Radarr
+! ========================================
 
-steamcontent.com
-steamserverbrowser.com
+@@||sonarr.tv^
 
-steamcmd.net
+@@||radarr.video^
 
-akamaihd.net
+@@||prowlarr.com^
 
-#
-# RimWorld Together
-#
+! ========================================
+! SABnzbd
+! ========================================
 
-rimworldgame.com
+@@||sabnzbd.org^
 
-#
-# Epic Games
-#
+! ========================================
+! Usenet Providers
+! ========================================
 
-epicgames.com
-epicgames.dev
-unrealengine.com
+@@||newsdemon.com^
+@@||www.newsdemon.com^
 
-#
-# Xbox / Microsoft Gaming
-#
+@@||usenetserver.com^
+@@||www.usenetserver.com^
 
-xbox.com
-xboxlive.com
+! ========================================
+! NZB Indexers
+! ========================================
 
-#
-# PowerShell / Package Management
-#
+@@||nzbgeek.info^
+@@||www.nzbgeek.info^
 
-powershellgallery.com
+@@||nzbplanet.net^
+@@||www.nzbplanet.net^
 
-nuget.org
-www.nuget.org
-api.nuget.org
+@@||nzbfinder.ws^
+@@||www.nzbfinder.ws^
 
-cdn.oneget.org
-onegetcdn.azureedge.net
+@@||animetosho.org^
 
-#
-# General Microsoft Services
-#
+! ========================================
+! Pterodactyl
+! ========================================
 
-microsoft.com
-login.microsoftonline.com
-graph.microsoft.com
+@@||pterodactyl.io^
+
+@@||panel.pterodactyl.io^
+
+! ========================================
+! Steam / SteamCMD
+! ========================================
+
+@@||steampowered.com^
+
+@@||api.steampowered.com^
+
+@@||partner.steamgames.com^
+
+@@||steamcommunity.com^
+
+@@||steamstatic.com^
+
+@@||steamusercontent.com^
+
+@@||steamcontent.com^
+
+@@||steamserverbrowser.com^
+
+@@||steamcmd.net^
+
+! ========================================
+! Game Hosting Networks
+! ========================================
+
+@@||akamaihd.net^
+
+@@||akamaized.net^
+
+@@||edgekey.net^
+
+@@||edgesuite.net^
+
+@@||fastly.net^
+
+@@||cloudfront.net^
+
+! ========================================
+! RimWorld Together
+! ========================================
+
+@@||rimworldgame.com^
+
+! ========================================
+! Epic Games
+! ========================================
+
+@@||epicgames.com^
+
+@@||epicgames.dev^
+
+@@||unrealengine.com^
+
+! ========================================
+! Xbox Services
+! ========================================
+
+@@||xbox.com^
+
+@@||xboxlive.com^
+
+! ========================================
+! RustDesk
+! ========================================
+
+@@||rustdesk.com^
+
+@@||api.rustdesk.com^
+
+! ========================================
+! Gotify
+! ========================================
+
+@@||gotify.net^
+
+! ========================================
+! HandBrake
+! ========================================
+
+@@||handbrake.fr^
+
+! ========================================
+! Redis
+! ========================================
+
+@@||redis.io^
